@@ -1,0 +1,135 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  //"buffer_font_family": "Fira Code",
+  "ui_font_size": 17.0,
+  "completions": {
+        "lsp_insert_mode": "replace_suffix"
+    },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "on_last_window_closed": "quit_app",
+  "languages": {
+    "Python": {
+      "show_edit_predictions": true
+    }
+  },
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
+    }
+  },
+  "buffer_font_family": "JetBrains Mono",
+  //"buffer_font_family": "Iosevka JetBrains",
+  //"buffer_font_family": "Berkeley Mono Trial",
+  //"buffer_font_family": "UbuntuMono Nerd Font",
+  //"buffer_font_family": "Zed Plex Mono",
+  "buffer_font_size": 17.0,
+  "buffer_line_height": {
+    "custom": 1.4
+  },
+  "format_on_save": "off",
+  "buffer_font_weight": 400,
+  "ssh_connections": [
+    {
+      "host": "merlin",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/meme/api_judge/./"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "xmerlin",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "~/2018"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "merlin",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "pcciprtom",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/homes/kazi/isedlacek"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "pchanneman",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/context_annotation"
+          ]
+        },
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/meme/api_judge"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "svatava",
+      "args": [],
+      "projects": []
+    }
+  ],
+  "theme": "Broken Pine Theme",
+  "vim_mode": true,
+  "use_autoclose": false,
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "cursor_shape": "block",
+  "wrap_guides": [80],
+  "terminal": {
+    "dock": "right"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "inlay_hints": {
+    "show_parameter_hints": false,
+    "enabled": true
+  },
+  "soft_wrap": "editor_width",
+  "indent_guides": {
+    "enabled": false
+  },
+  "current_line_highlight": "none",
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "git": {
+    "git_gutter": null,
+    "gutter_debounce": null,
+    "inline_blame": {
+      "enabled": false
+    }
+  }
+}

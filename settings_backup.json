@@ -1,0 +1,78 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  //"buffer_font_family": "Fira Code",
+  //"buffer_font_family": "JetBrains Mono",
+  //"buffer_font_family": "Berkeley Mono Trial",
+  //"buffer_font_family": "UbuntuMono Nerd Font",
+  "buffer_font_size": 16,
+  "buffer_line_height": {
+    "custom": 1.4
+  },
+  "ssh_connections": [
+    {
+      "host": "merlin",
+      "projects": [
+        {
+          "paths": ["/homes/kazi/isedlacek"]
+        },
+        {
+          "paths": ["/mnt/matylda3/cernocky/ISS/proj2024/submitted"]
+        },
+        {
+          "paths": ["/mnt/matylda6/isedlacek/projects/huggingface_asr"]
+        },
+        {
+          "paths": ["/mnt/matylda6/isedlacek/teaching"]
+        }
+      ]
+    },
+    {
+      "host": "xmerlin",
+      "projects": [
+        {
+          "paths": ["~/2018"]
+        }
+      ]
+    },
+    {
+      "host": "merlin",
+      "projects": []
+    }
+  ],
+  "theme": "Ayu Dark",
+  "vim_mode": true,
+  "use_autoclose": false,
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "terminal": {
+    "dock": "right"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "soft_wrap": "none",
+  "indent_guides": {
+    "enabled": false
+  },
+  "current_line_highlight": "none",
+  "features": {
+    "inline_completion_provider": "supermaven"
+  },
+  "git": {
+    "git_gutter": null,
+    "gutter_debounce": null,
+    "inline_blame": {
+      "enabled": false
+    }
+  }
+}
