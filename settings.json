@@ -13,16 +13,17 @@
         "lsp_insert_mode": "replace_suffix"
     },
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "eager"
   },
   "on_last_window_closed": "quit_app",
   "languages": {
     "Python": {
+      "extend_comment_on_newline": false,
       "show_edit_predictions": true
     }
   },
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5"
@@ -89,6 +90,11 @@
         },
         {
           "paths": [
+            "/mnt/matylda6/isedlacek/projects/meme/analysis/./"
+          ]
+        },
+        {
+          "paths": [
             "/mnt/matylda6/isedlacek/projects/meme/api_judge"
           ]
         }
@@ -105,7 +111,7 @@
   "use_autoclose": false,
   "relative_line_numbers": true,
   "cursor_blink": false,
-  "cursor_shape": "block",
+  "cursor_shape": "bar",
   "wrap_guides": [80],
   "terminal": {
     "dock": "right"
