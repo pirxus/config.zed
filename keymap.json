@@ -83,5 +83,15 @@
     "bindings": {
       "ctrl-y": "editor::ConfirmCompletion"
     }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-escape": "workspace::ToggleZoom"
+    }
+  },
+  {
+    "bindings": {
+      "shift-escape": null
+    }
   }
 ]
