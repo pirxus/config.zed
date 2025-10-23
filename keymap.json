@@ -93,5 +93,17 @@
     "bindings": {
       "shift-escape": null
     }
+  },
+  {
+    "context": "(VimControl || (!Editor && !Terminal))",
+    "bindings": {
+      "space w": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "(VimControl || (!Editor && !Terminal))",
+    "bindings": {
+      "space q": "pane::ActivatePreviousItem"
+    }
   }
 ]
