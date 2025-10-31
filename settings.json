@@ -17,6 +17,10 @@
   "on_last_window_closed": "quit_app",
   "languages": {
     "Python": {
+      "inlay_hints": {
+        "show_type_hints": false
+      },
+      "preferred_line_length": 0,
       "extend_comment_on_newline": false,
       "show_edit_predictions": true
     }
