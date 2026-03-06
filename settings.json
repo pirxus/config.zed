@@ -8,6 +8,13 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   //"buffer_font_family": "Fira Code",
+  "agent_servers": {
+    "github-copilot": {
+      "type": "registry"
+    }
+  },
+  "disable_ai": false,
+  "preferred_line_length": 0,
   "completions": {
         "lsp_insert_mode": "replace_suffix"
     },
@@ -26,13 +33,14 @@
     }
   },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5"
     }
   },
   "buffer_font_family": "JetBrains Mono",
+  //"buffer_font_family": "Ioskeley Mono",
   //"buffer_font_family": "Iosevka JetBrains",
   //"buffer_font_family": "Berkeley Mono Trial",
   //"buffer_font_family": "UbuntuMono Nerd Font",
@@ -88,7 +96,22 @@
       "projects": [
         {
           "paths": [
+            "/homes/kazi/isedlacek"
+          ]
+        },
+        {
+          "paths": [
             "/mnt/matylda6/isedlacek/projects/context_annotation"
+          ]
+        },
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/eloquence/t2.5/speech_llm/./"
+          ]
+        },
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/eloquence/t2.5/speech_llm/recipes/mlc"
           ]
         },
         {
@@ -106,13 +129,19 @@
     {
       "host": "svatava",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/mnt/matylda6/isedlacek/projects/meme/analysis/./"
+          ]
+        }
+      ]
     }
   ],
   "theme": "Broken Pine Theme",
   "vim_mode": true,
   "use_autoclose": false,
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "cursor_blink": false,
   "cursor_shape": "bar",
   "wrap_guides": [80],
@@ -123,6 +152,7 @@
     "show": "never"
   },
   "inlay_hints": {
+    "show_type_hints": false,
     "show_parameter_hints": false,
     "enabled": true
   },
@@ -131,9 +161,6 @@
     "enabled": false
   },
   "current_line_highlight": "none",
-  "features": {
-    "edit_prediction_provider": "copilot"
-  },
   "git": {
     "git_gutter": null,
     "gutter_debounce": null,
